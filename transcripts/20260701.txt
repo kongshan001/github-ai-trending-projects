@@ -1,0 +1,97 @@
+[0.0s -> 3.7s] 今日,Gigha pay Agents skills 週報25個項目
+[3.7s -> 6.7s] Gigha 15 個,Kahab 技能 10 個
+[6.7s -> 10.1s] 最高 Microsoft Market 等 16.1 萬 star
+[10.1s -> 14.4s] 上主線,Agents skills 標準化與多平台生態擴張
+[14.4s -> 18.8s] Microsoft Market 等 16.1 萬 star 月增 3.4 萬
+[18.8s -> 21.0s] 微軟萬能紋盪預處理工具
+[21.0s -> 27.4s] 支持 PDF, Word,PPT,Itself 音飾平等數十種格式一鍵轉mark等
+[27.7s -> 34.0s] 集成 Azure Document in Intelligence 是 LLM 數據管道事實標準,RAD 預處理必備
+[34.0s -> 39.2s] Hari 0703 Manipreinter Turbo 9.4 萬 star 月增 2.9 萬
+[39.2s -> 44.2s] AI 短視頻全自動生成 文案到配音字幕 素材剪輯一條龍
+[44.2s -> 51.2s] 支持數平衡平批量輸出 肩融 Deepseek 和同一千萬等國產大模型 自媒體運營首選
+[51.2s -> 55.8s] Adios Mani Agents skills 6.1 萬 star 月增 1.1 萬
+[56.0s -> 60.6s] Google Adios Mani 出品的 AI 編碼 Agents 工程化技能級
+[60.6s -> 66.6s] 7個 Slash命令覆蓋開發全生命周期 肩融 Cloud Code,Cursor,Copilot
+[66.6s -> 69.5s] 負質量評估礦價 R&B 替開源
+[69.5s -> 73.9s] Leonxung Staste Steal 5.3 萬 star 月增 2.7 萬
+[73.9s -> 81.1s] 負於 AI Agents 神媒品味的技能模塊 通過設計系統約束 讓 AI 生成 UI 遠離模板化
+[81.1s -> 84.4s] 對抗 AI Slop 減少同志化輸出
+[84.6s -> 87.2s] 輕量少腳本 安裝即用靈衣賴
+[87.2s -> 91.9s] Man Hall Last 30 Day Skill 4.7 萬 star 月增 2.1 萬
+[91.9s -> 99.4s] 讓 AI Agents Quarreddit X,YouTube,H&N 等六平台做話題調研 自動篩選交差驗證
+[99.4s -> 104.7s] 輸出結構化摘要 還來源鏈接 和可信度標註 近頻分析力氣
+[104.7s -> 109.0s] Panelian Tang Agents Reach 4.5 萬 star 月增 2.4 萬
+[109.2s -> 116.4s] 給 AI Agents 裝上全網眼睛 零 API 費用毒取,Twitter,B 站,小紅書等時期的平台
+[116.4s -> 122.4s] 原生 MCP 協議支持 接入 Club Code 和Cursor 突破 Agents 信息減防
+[122.4s -> 126.6s] Triple T.Jess Hyderon 3.0 萬 star 月增 2.5 萬
+[126.6s -> 134.4s] Netflix 工程師 出品的 LLM 偷品壓縮神器 內容進大魔型前壓縮 60%-95%
+[134.6s -> 141.2s] 代碼搜索 壓縮92% 三種模式 拍反庫,HTTP代理,MCP服務器
+[141.2s -> 142.7s] 成本直降
+[142.7s -> 147.8s] SuperMemory i SuperMemory 2.8 萬 star 月增 5193
+[147.8s -> 152.8s] AI 時代記憶引擎 為 Agents 提供誇會話持久化長期記憶
+[152.8s -> 158.4s] 知識圖譜加上兩件所傷引擎 支持本地全量運行 數據主權歸你
+[158.6s -> 160.4s] Agent 不再十億
+[160.4s -> 165.0s] Classio Open Montage 2.7 萬 star 月增 2.2 萬
+[165.0s -> 171.8s] 首個開源 Agents 視頻製作系統 12 條流水線加 52 個工具加 500 個 Agents 技能
+[171.8s -> 176.6s] AI Agents 自主決策檢及方案 覆蓋劇本到配音權流程
+[176.6s -> 178.0s] 開源免費
+[178.0s -> 184.0s] Moco 975 and Flowpix Cybersecurity skills 2.3 萬 star 月增 1.1 萬
+[184.0s -> 191.6s] 817 個網絡安全技能 應設 Matter ATT 與CK和 NIST CSF 2.0 等六大安全框架
+[191.6s -> 195.4s] 覆蓋 29 個安全領域 減容 20 個以上平台
+[195.4s -> 197.2s] 安全審計力氣
+[197.2s -> 202.4s] DS Data Co. Base Memory MCP 1.97 萬 star 月增 1.6 萬
+[202.4s -> 210.0s] 高性能代碼智能 MCP 服務器 毫秒極所引代碼庫 為持久知識圖譜 支持 158 種語言
+[210.2s -> 215.0s] Token 消耗減少 99% 壓好秒極查詢 0.1 賴部署
+[215.0s -> 219.6s] Stabby Orca 9802  star 周增 33111
+[219.6s -> 225.0s] 並行 Agents 鍵對管理平台 用你自己的訂閱運行多個編碼 Agents
+[225.0s -> 229.2s] 桌面端家移動端全支持 任務分發和結果聚合
+[229.2s -> 232.8s] 成本透明可控 是核多 Agents 協作場景
+[232.8s -> 238.1s] Interview Street Hiring Agents 4.020 star 周增 2,266
+[238.1s -> 242.9s] AI 減力評估與評分 Agents 自動解析減力提取關鍵技能
+[242.9s -> 245.5s] 及於 JD 智能體配度評分
+[245.5s -> 249.7s] 輸出結構劃報告 含優缺點分析 HR 效率工具
+[249.7s -> 254.8s] Google Agents CLI 4343 star 周增 944
+[254.8s -> 260.3s] Google 官方 CLI 加技能級 把編程助手訓練成 Agents 部署專家
+[260.3s -> 265.3s] 與 GCP 生態原生集成 支持 Vertex AI Agents Builder
+[265.3s -> 269.0s] 生產級穩定性 企業 GCP 用戶首選
+[269.0s -> 274.3s] Builder AIO Agents Native 3225 star 周增 1,370
+[274.3s -> 276.4s] Agent Native應用開發框架
+[276.4s -> 279.6s] Agent 優先範疇構建 AI 原生應用
+[279.6s -> 284.6s] Tax Crypt 原生支持 內置工具調度 狀態管理和記憶系統
+[284.6s -> 286.9s] Builder AIO團隊出品
+[286.9s -> 291.8s] Capability 以 Wallware 和 Hub 下載 3.6 萬 MetaSkill 原技能
+[291.9s -> 298.5s] 叫 AI Agents 通過結構化自平 發現能力缺口 並自動生成新技能 實現自我進化
+[298.5s -> 301.9s] Open Cloud 生態核心 下載量斷層第一
+[301.9s -> 304.1s] Agent 自進化基石
+[304.1s -> 307.9s] Whackley 和 Hub 下載 1.6 萬 有提了提技能
+[307.9s -> 313.9s] 自然與言驅動命令型交互 將日常需求翻譯為善命令 自帶教驗與回滾
+[313.9s -> 319.0s] 命令執行前 教驗加失敗自動回滾 開發者日常效率工具
+[319.1s -> 323.2s] Bud Rover 和 Hub 下載 1.6 萬 有提了提技能
+[323.2s -> 329.9s] 自主文件系統探索引擎 自動導航幕錄結構 總結代碼庫 構建項目架構上下文
+[329.9s -> 335.0s] 無需指定目標文件 自動便利理解代碼庫 新人上手立起
+[335.0s -> 339.9s] self in proven agent 和 Hub 下載 1.6 萬  MetaSkill 原技能
+[339.9s -> 341.6s] 專注 prompt 自我經驗
+[341.6s -> 346.5s] Agent 分析輸出質量 發現指令不清之處 並重寫 scale MD
+[346.5s -> 350.0s] 自動檢測缺陷 分析跟音 必緩改進
+[350.0s -> 354.4s] ATXP 和 Hub 下載 1.4 萬 有提了提技能
+[354.4s -> 362.1s] 結構化任務執行追蹤器 將複雜請求 拆解為子任務 追蹤完成狀態 跨中段保持上下文
+[362.1s -> 365.8s] Agent 內置項目管理 長流程自動化引擎
+[365.8s -> 370.5s] Google Workspace 全集技能 和 Hub 下載 1.4 萬
+[370.5s -> 375.9s] 一個技能覆蓋 Dox, Sheets, Slides, Drive, Calendar 只沒有全家筒
+[375.9s -> 380.8s] 官方 API 認證多端同步 辦公自動化和文檔寫作必備
+[380.8s -> 385.3s] Agent Browser 和 Hub 下載 1.2 萬 嬰恕技能
+[385.3s -> 391.3s] 流覽器自動化技能Agent 像人類一樣流覽網頁 填寫表單 提取內容
+[391.3s -> 395.6s] 視覺加 DOAM 商程教業, PlayRide 驅動穩定可靠
+[395.6s -> 399.6s] Samarice 和 Hub 下載 1.1 萬 有提了提技能
+[399.6s -> 406.0s] 帝規摘要技能 將文檔 URL 對話歷史 代碼等任意輸入 轉為結構化摘要
+[406.0s -> 411.2s] 超常文檔自動分辨帝規摘要 信息壓縮和知識提取好幫手
+[411.2s -> 415.2s] Gig Hub 和 Hub 下載 1.1 萬 嬰恕技能
+[415.2s -> 421.7s] Gig Hub 全功能集成 倉庫管理 醫術和 P2 自動化 代碼審查和工作流編排
+[421.7s -> 426.5s] 深度集成 P2 自動化流 開發者 Agent 必備連接器
+[426.6s -> 431.6s] Tallly Web Search 和 Hub 下載 8.142 嬰恕技能
+[431.6s -> 438.1s] 與一級網頁搜索技能 通過Tallly API 實現比關鍵詞更精準的 RAD 有好減鎖
+[438.1s -> 442.1s] 內置 HTMBILE 降噪 輸出 RAD 有好格式
+[442.1s -> 444.9s] 三大信號 Agent Steels 標準化爆發
+[444.9s -> 450.0s] 從 Agent Steels 到 Cyber Security Steels 技能成 Agent 通用語言
+[450.0s -> 454.0s] 多平台生態擴張 Agent Reach 覆蓋時期平台
+[454.0s -> 456.1s] 可 Hub 原技能 下
