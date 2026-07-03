@@ -1,0 +1,203 @@
+{
+  "snapshot_date": "2026-07-01",
+  "source_video": "BV1puTi6tEoE",
+  "uploader": "前端布洛芬",
+  "project_count": 14,
+  "projects": [
+    {
+      "id": 1,
+      "name": "Microsoft MarkItDown",
+      "repo": "microsoft/markitdown",
+      "star_count": 162000,
+      "star_raw": "16.2 万（月增 3.4 万，视频时点 16.1 万）",
+      "growth": "月增 3.4 万",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "RAG",
+        "文档预处理",
+        "数据管道"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "harry0703/MoneyPrinterTurbo",
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "star_count": 95000,
+      "star_raw": "9.5 万（月增 2.9 万）",
+      "growth": "月增 2.9 万",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "短视频自动化",
+        "自媒体",
+        "内容生产"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "anthropics/skills（Anthropic 官方）",
+      "repo": "anthropics/skills",
+      "star_count": 157000,
+      "star_raw": "15.7 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "Agent 协议",
+        "Claude Skills",
+        "基础设施"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "sickn33/antigravity-awesome-skills",
+      "repo": "sickn33/antigravity-awesome-skills",
+      "star_count": 42000,
+      "star_raw": "4.2 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "Agent 协议",
+        "Claude Skills",
+        "资源集"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "mattpocock/skills",
+      "repo": "mattpocock/skills",
+      "star_count": 154000,
+      "star_raw": "15.4 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "Agent 协议",
+        "Claude Skills",
+        "工程师派"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Panniantong/Agent-Reach",
+      "repo": "Panniantong/Agent-Reach",
+      "star_count": 49000,
+      "star_raw": "4.9 万（月增 2.4 万）",
+      "growth": "月增 2.4 万",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "Agent 工具",
+        "跨平台",
+        "MCP"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "microsoft/LLMLingua",
+      "repo": "microsoft/LLMLingua",
+      "star_count": 6400,
+      "star_raw": "6.4k（系列累计更高）",
+      "growth": "",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "LLM 优化",
+        "成本压缩",
+        "MCP"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "supermemoryai/supermemory",
+      "repo": "supermemoryai/supermemory",
+      "star_count": 28000,
+      "star_raw": "2.8 万（月增 5,193）",
+      "growth": "月增 5 万",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "Agent 工具",
+        "长期记忆",
+        "MCP"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "calesthio/OpenMontage",
+      "repo": "calesthio/OpenMontage",
+      "star_count": 31000,
+      "star_raw": "3.1 万（月增 2.2 万）",
+      "growth": "月增 2.2 万",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "视频生产",
+        "Agent 工具"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "star_count": 24000,
+      "star_raw": "2.4 万（月增 1.1 万）",
+      "growth": "月增 1.1 万",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "安全审计",
+        "垂直 Skills",
+        "合规"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "DeusData/codebase-memory-mcp",
+      "repo": "DeusData/codebase-memory-mcp",
+      "star_count": 24000,
+      "star_raw": "2.4 万（月增 1.6 万）",
+      "growth": "月增 1.6 万",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "代码搜索",
+        "MCP",
+        "知识图谱"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "farion1231/cc-switch",
+      "repo": "farion1231/cc-switch",
+      "star_count": 112000,
+      "star_raw": "11.2 万（周增 33,111，扩展性最强）",
+      "growth": "周增 33 万",
+      "tier": "T3 基础设施",
+      "tags": [
+        "Claude Code",
+        "多账号",
+        "并行 Agent"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "google-gemini/gemini-cli（视频里称为 Google Agents CLI）",
+      "repo": "google-gemini/gemini-cli",
+      "star_count": 106000,
+      "star_raw": "10.6 万（周增 944）",
+      "growth": "周增 944 万",
+      "tier": "T3 基础设施",
+      "tags": [
+        "Google 生态",
+        "CLI Agent",
+        "GCP"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "mastra-ai/mastra（视频里称为 Builder AIO Agents Native）",
+      "repo": "mastra-ai/mastra",
+      "star_count": 26000,
+      "star_raw": "2.6 万（周增 1,370）",
+      "growth": "周增 1 万",
+      "tier": "T3 基础设施",
+      "tags": [
+        "TypeScript",
+        "Agent 框架",
+        "Web"
+      ]
+    }
+  ]
+}
