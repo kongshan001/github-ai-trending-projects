@@ -2,7 +2,7 @@
   "snapshot_date": "2026-07-01",
   "source_video": "BV1puTi6tEoE",
   "uploader": "前端布洛芬",
-  "project_count": 14,
+  "project_count": 17,
   "projects": [
     {
       "id": 1,
@@ -198,6 +198,61 @@
         "Agent 框架",
         "Web"
       ]
+    },
+    {
+      "id": 15,
+      "name": "addyosmani/agent-skills",
+      "repo": "addyosmani/agent-skills",
+      "star_count": 68618,
+      "star_raw": "6.86 万（月增 1.1 万，视频时点 6.1 万）",
+      "growth": "月增 1.1 万",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "Agent Skills",
+        "Claude Code",
+        "工程师派",
+        "Google Chrome"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Leonxlnx/taste-skill",
+      "repo": "Leonxlnx/taste-skill",
+      "star_count": 55091,
+      "star_raw": "5.5 万（月增 2.7 万，视频时点 5.3 万）",
+      "growth": "月增 2.7 万",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "前端",
+        "设计系统",
+        "Claude Skills",
+        "UI 品味"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "InterviewStreet/hiring-agent",
+      "repo": "InterviewStreet/hiring-agent",
+      "star_count": 4410,
+      "star_raw": "4.4k（周增 2,266）",
+      "growth": "周增 2,266",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "HR",
+        "招聘",
+        "简历评估",
+        "Agent"
+      ]
     }
-  ]
+  ],
+  "addendum": {
+    "version": "v0.2.1",
+    "date": "2026-07-03",
+    "note": "补全 3 个项目: addyosmani/agent-skills (#15), Leonxlnx/taste-skill (#16), InterviewStreet/hiring-agent (#17)。原报告归类为\"Hub Skills 生态综述\"，本版本精确识别。",
+    "previously_unidentified": [
+      "Adios Mani Agents skills",
+      "Leonxung Staste Steal",
+      "Interview Street Hiring Agents"
+    ]
+  }
 }

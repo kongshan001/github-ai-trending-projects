@@ -21,6 +21,7 @@
 | 项目 | 仓库 | 适用 |
 |------|------|------|
 | **anthropics/skills** | [查看](../../projects/anthropics-skills.md) | 官方协议，所有 Agent 通用 |
+| **addyosmani/agent-skills** | [查看](../../projects/addyosmani-agent-skills.md) | Google Chrome 工程师，Slash 命令工厂 |
 | mattpocock/skills | [查看](../../projects/mattpocock-skills.md) | TypeScript 工程师派 |
 
 ### 🚀 运行时层
@@ -85,6 +86,7 @@ task_routing:
 ## 关联项目
 
 - 🔗 [anthropics/skills](../../projects/anthropics-skills.md)
+- 🔗 [addyosmani/agent-skills](../../projects/addyosmani-agent-skills.md)
 - 🔗 [mattpocock/skills](../../projects/mattpocock-skills.md)
 - 🔗 [farion1231/cc-switch](../../projects/farion1231-cc-switch.md)
 - 🔗 [google-gemini/gemini-cli](../../projects/google-gemini-gemini-cli.md)

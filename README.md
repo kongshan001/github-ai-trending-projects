@@ -62,7 +62,7 @@ cat reports/20260701_analysis.md
     └── SKILL-rationale.md
 ```
 
-## 📚 已收录项目（14 个）
+## 📚 已收录项目（17 个，含 v0.2.1 补全 3 个）
 
 ### T1 - 协议层 / 顶级流量
 
@@ -73,6 +73,8 @@ cat reports/20260701_analysis.md
 | mattpocock/skills | [mattpocock/skills](projects/mattpocock-skills.md) | 15.4 万 | Agent 协议 |
 | cc-switch | [farion1231/cc-switch](projects/farion1231-cc-switch.md) | 11.2 万 | 多账号 |
 | Gemini CLI | [google-gemini/gemini-cli](projects/google-gemini-gemini-cli.md) | 10.6 万 | GCP |
+| addyosmani/agent-skills 🆕 | [addyosmani/agent-skills](projects/addyosmani-agent-skills.md) | 6.86 万 | Claude Code |
+| Leonxlnx/taste-skill 🆕 | [Leonxlnx/taste-skill](projects/Leonxlnx-taste-skill.md) | 5.5 万 | 前端设计 |
 | MoneyPrinterTurbo | [harry0703/MoneyPrinterTurbo](projects/harry0703-MoneyPrinterTurbo.md) | 9.5 万 | 短视频 |
 
 ### T2 - 垂直领域明星
@@ -86,6 +88,7 @@ cat reports/20260701_analysis.md
 | Mastra | [mastra-ai/mastra](projects/mastra-ai-mastra.md) | 2.6 万 | TS Agent |
 | Cybersecurity Skills | [mukul975/Anthropic-Cybersecurity-Skills](projects/mukul975-Anthropic-Cybersecurity-Skills.md) | 2.4 万 | 安全审计 |
 | codebase-memory-mcp | [DeusData/codebase-memory-mcp](projects/DeusData-codebase-memory-mcp.md) | 2.4 万 | 代码搜索 |
+| InterviewStreet/hiring-agent 🆕 | [InterviewStreet/hiring-agent](projects/InterviewStreet-hiring-agent.md) | 4.4k | HR 招聘 |
 
 ### T3 - 基础设施 / 优化层
 

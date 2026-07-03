@@ -8,13 +8,15 @@
 |------|------------|------------|
 | [📄 RAG / 文档问答](./rag-document-qa.md) | 文档预处理 + 切片 + 检索 | 2 |
 | [🎬 短视频自动化生产](./short-video-automation.md) | 文案→配音→剪辑一条龙 | 3 |
-| [🤖 Agent Coding / Claude Code](./agent-coding.md) | 协议 + 多账号 + Skills 生态 | 6 |
+| [🤖 Agent Coding / Claude Code](./agent-coding.md) | 协议 + 多账号 + Skills 生态 | 7 |
 | [🔒 AI 安全审计 / 合规](./ai-security-audit.md) | 垂直 Skills + 合规框架 | 1 |
 | [🌐 跨平台信息获取 (MCP)](./cross-platform-mcp.md) | Agent 跨平台读取 | 4 |
 | [🧠 长期记忆 / 知识沉淀](./long-term-memory.md) | Agent 跨会话记忆 | 1 |
 | [💰 LLM 成本优化](./llm-cost-optimization.md) | Token 压缩 / 提示工程 | 1 |
 | [🔍 代码搜索 / 代码理解](./code-search.md) | MCP 代码检索 | 1 |
 | [☁️ GCP / 企业级 Agent 部署](./gcp-enterprise.md) | Google 生态 | 2 |
+| [🎨 前端设计 / Vibe Coding](./frontend-design.md) | 给 AI 加设计品味，对抗 AI Slop | 1 |
+| [👔 HR 招聘 / 简历评估](./hr-recruitment.md) | 简历初筛 + JD 匹配 | 1 |
 
 ## 横向对比表
 

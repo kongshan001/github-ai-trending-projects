@@ -4,6 +4,47 @@
 
 ---
 
+## 2026-07-03 · v0.2.1 · 补全 3 个 Hub Skill 项目
+
+**动机**：v0.2.0 重构时，原 v0.1.0 报告里有 10 个 Hub Skill 类项目被归类为"生态综述"未精确识别。本版本通过 GitHub API 精确搜索，把其中 **3 个项目** 补全出来。
+
+### 🎯 补全项目
+
+| 转写片段 | 真实仓库 | Star | 校验时间 |
+|----------|----------|------|----------|
+| `Adios Mani Agents skills 6.1 萬` | `addyosmani/agent-skills` | 6.86 万 | 2026-07-03 |
+| `Leonxung Staste Steal 5.3 萬` | `Leonxlnx/taste-skill` | 5.5 万 | 2026-07-03 |
+| `Interview Street Hiring Agents 4.020` | `InterviewStreet/hiring-agent` | 4,410 | 2026-07-03 |
+
+### 📦 数据规模变化
+
+- 项目卡片：14 → **17** 张
+- 业务场景索引：9 → **11** 个（新增前端设计 + HR 招聘）
+- T1 项目数：5 → **7** 个（addyosmani、Leonxlnx 都是千星月增过万）
+- T2 项目数：6 → **7** 个（InterviewStreet 加入）
+
+### 🪛 已踩的坑
+
+| 现象 | 根因 | 解决方案 |
+|------|------|----------|
+| `stats/20260701_stars.json` 写入后 ID 冲突 | 重复 push 同一项目时 ID 未去重 | 写 stats 时按 `repo` 字段去重 |
+| `patch` 工具误删"场景"行 | old_string 漏了一行 | 先 read_file 完整内容再 patch |
+
+### 🔜 剩余未识别
+
+仍有 7 个 Hub Skills 项目未识别（详见 `reports/20260701_analysis.md` 末尾 v0.2.1 章节），归类为生态综述：
+- Whackley (NL→Shell)
+- Bud Rover (代码库理解)
+- self-improving agent (Prompt 工程)
+- ATXP (Task tracker)
+- Google Workspace 技能
+- Agent Browser (浏览器 MCP)
+- Samarice Summarize
+- Gig Hub (GitHub MCP)
+- Tallly Web Search
+
+---
+
 ## 2026-07-03 · v0.2.0 · 重构：按业务场景检索
 
 **动机**：原仓库是"一期一份分析报告"的扁平结构，无法快速回答"我想做 XX 业务场景，有哪些开源项目可用？"。本次重构新增三轨索引。
