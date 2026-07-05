@@ -2,11 +2,40 @@
 
 本文件记录 bilibili-trending-projects 仓库的演进。
 
+> ⚠️ **2026-07-05 仓库重命名为 `github-ai-trending-projects`**，原 `bilibili-trending-projects` URL 通过 GitHub 自动 301 跳转保留。
+> 旧名字与"B 站视频来源"的定位强绑定；新名字定位扩展为「GitHub AI 项目情报库」，数据来源从单一 B 站视频扩展为「视频提取 + 手动调研」双轨。
+> 本 CHANGELOG 历史条目保留旧名作为时间线记录，未做回溯修改。
+
+---
+
+## 2026-07-05 · v0.2.3 · 仓库重命名
+
+**动机**：用户要求将仓库从 `bilibili-trending-projects` 重命名为 `github-ai-trending-projects`。
+
+### 📋 变更内容
+
+- **仓库名**：`bilibili-trending-projects` → `github-ai-trending-projects`
+- **README 标题**：`B 站开源项目情报库` → `GitHub AI 热门项目情报库`
+- **README 目标描述**：扩展为「追踪 GitHub 上 AI / Agent / Skills 热门开源项目（视频提取 + 手动调研双轨）」
+- **旧 URL 兼容性**：通过 GitHub 自动 301 跳转保留，外部链接不会失效
+- **CHANGELOG 历史**：保留旧名作为时间线记录，不做回溯修改
+
+### 🤔 设计权衡
+
+- ✅ 新名字**定位更准确**：现在数据源已经不只是 B 站视频，还有手动调研类项目
+- ✅ 去掉"B 站"前缀，**未来可拓展**到其他信息源（YouTube、HackerNews 等）
+- ✅ GitHub 自动 301 跳转，**零迁移成本**
+- ⚠️ CHANGELOG 历史保留旧名——这是诚实做法，未来查阅时一眼能看出当时的仓库叫什么
+
+### 🪛 给后续维护者的提示
+
+- 本地所有 clone 都需要执行：`git remote set-url origin https://github.com/kongshan001/github-ai-trending-projects.git`
+- GitHub Actions / CI 如果 hardcode 了旧 URL，需要同步更新
+- 任何外部文档/书签里的旧 URL 不需要改（GitHub 自动跳转）
+
 ---
 
 ## 2026-07-05 · v0.2.2 · 新增 Deep-Research 类调研
-
-**动机**：用户对"Agent Reach"和"Deep-Research-skills"两个主题发起手动调研。Agent Reach 已收录（T2），本次新整理 **4 个 Deep-Research 类项目**，并把"深度调研报告生成"作为一个新的业务场景纳入索引。
 
 ### 🎯 新增项目
 

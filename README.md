@@ -1,9 +1,9 @@
-# 🎯 B 站开源项目情报库
+# 🎯 GitHub AI 热门项目情报库
 
-> **目标**：从 B 站热门开源项目视频里提炼业务场景可用的工具，按场景快速检索
+> **目标**：追踪 GitHub 上 AI / Agent / Skills 热门开源项目（视频提取 + 手动调研双轨），按业务场景快速检索
 
-[![Stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkongshan001%2Fbilibili-trending-projects&query=%24.stargazers_count&label=stars)](https://github.com/kongshan001/bilibili-trending-projects)
-[![Forks](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkongshan001%2Fbilibili-trending-projects&query=%24.forks_count&label=forks)](https://github.com/kongshan001/bilibili-trending-projects)
+[![Stars](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkongshan001%2Fgithub-ai-trending-projects&query=%24.stargazers_count&label=stars)](https://github.com/kongshan001/github-ai-trending-projects)
+[![Forks](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fkongshan001%2Fgithub-ai-trending-projects&query=%24.forks_count&label=forks)](https://github.com/kongshan001/github-ai-trending-projects)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 🚀 30 秒上手
