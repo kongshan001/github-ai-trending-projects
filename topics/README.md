@@ -17,6 +17,7 @@
 | [☁️ GCP / 企业级 Agent 部署](./gcp-enterprise.md) | Google 生态 | 2 |
 | [🎨 前端设计 / Vibe Coding](./frontend-design.md) | 给 AI 加设计品味，对抗 AI Slop | 1 |
 | [👔 HR 招聘 / 简历评估](./hr-recruitment.md) | 简历初筛 + JD 匹配 | 1 |
+| [📚 深度调研报告生成](./deep-research-report.md) | 结构化报告 + 引用追溯 + 反方观点 | 4 |
 
 ## 横向对比表
 
@@ -30,6 +31,10 @@
 | 代码 MCP | DeusData/codebase-memory-mcp | Sourcegraph, grep | ⭐⭐⭐ |
 | 长期记忆 | supermemoryai/supermemory | mem0, vector DB 自建 | ⭐⭐ |
 | 安全审计 Skills | mukul975/Anthropic-Cybersecurity-Skills | 自建规则库 | ⭐⭐ |
+| 深度调研报告（结构化两阶段） | Weizhena/Deep-Research-skills | 199-biotech（更严）, hoolulu（中文更优） | ⭐⭐⭐ |
+| 深度调研报告（企业级 8 阶段） | 199-biotech/claude-deep-research-skill | Weizhena（更轻量）, hoolulu（中文更优） | ⭐⭐⭐ |
+| 深度调研报告（中文券商级） | hoolulu/deep-research | Weizhena, 199-biotech | ⭐⭐⭐ |
+| 学术论文全流程 | lingzhi227/agent-research-skills | 自拼 skill 集 | ⭐⭐ |
 
 ## 使用方法
 
@@ -56,5 +61,6 @@
 ```
 Agent Skills 协议 (3) · MCP (4) · Claude Code (2) · 文档处理 (1) · 
 视频生产 (2) · 长期记忆 (1) · 安全审计 (1) · 代码搜索 (1) ·
-跨平台 (1) · 成本优化 (1) · TypeScript (2) · Google 生态 (1)
+跨平台 (1) · 成本优化 (1) · TypeScript (2) · Google 生态 (1) ·
+深度调研 (4) · 中文场景 (1) · 多语种 (1) · 学术 (1)
 ```

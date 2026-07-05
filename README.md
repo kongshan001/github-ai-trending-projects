@@ -39,13 +39,20 @@ cat reports/20260701_analysis.md
 │   ├── long-term-memory.md        # 长期记忆 / 知识沉淀
 │   ├── llm-cost-optimization.md   # LLM 成本优化
 │   ├── code-search.md             # 代码搜索
-│   └── gcp-enterprise.md          # GCP / 企业级部署
-│
+│   ├── gcp-enterprise.md          # GCP / 企业级部署
+│   ├── frontend-design.md         # 前端设计 / Vibe Coding
+│   ├── hr-recruitment.md          # HR 招聘 / 简历评估
+│   └── deep-research-report.md    # 深度调研报告生成 🆕
+
 ├── projects/                      # ★ 项目卡片（每个项目一张）
 │   ├── microsoft-markitdown.md
 │   ├── harry0703-MoneyPrinterTurbo.md
 │   ├── anthropics-skills.md
-│   └── ... (共 14 张)
+│   ├── Weizhena-Deep-Research-skills.md 🆕
+│   ├── 199-biotechnologies-claude-deep-research-skill.md 🆕
+│   ├── hoolulu-deep-research.md 🆕
+│   ├── lingzhi227-agent-research-skills.md 🆕
+│   └── ... (共 21 张)
 │
 ├── reports/                       # 原始视频解析报告（深度调研）
 │   └── 20260701_analysis.md
@@ -62,7 +69,7 @@ cat reports/20260701_analysis.md
     └── SKILL-rationale.md
 ```
 
-## 📚 已收录项目（17 个，含 v0.2.1 补全 3 个）
+## 📚 已收录项目（21 个，含 v0.2.2 手动调研 4 个 + v0.2.1 补全 3 个）
 
 ### T1 - 协议层 / 顶级流量
 
@@ -73,9 +80,11 @@ cat reports/20260701_analysis.md
 | mattpocock/skills | [mattpocock/skills](projects/mattpocock-skills.md) | 15.4 万 | Agent 协议 |
 | cc-switch | [farion1231/cc-switch](projects/farion1231-cc-switch.md) | 11.2 万 | 多账号 |
 | Gemini CLI | [google-gemini/gemini-cli](projects/google-gemini-gemini-cli.md) | 10.6 万 | GCP |
+| MoneyPrinterTurbo | [harry0703/MoneyPrinterTurbo](projects/harry0703-MoneyPrinterTurbo.md) | 9.5 万 | 短视频 |
 | addyosmani/agent-skills 🆕 | [addyosmani/agent-skills](projects/addyosmani-agent-skills.md) | 6.86 万 | Claude Code |
 | Leonxlnx/taste-skill 🆕 | [Leonxlnx/taste-skill](projects/Leonxlnx-taste-skill.md) | 5.5 万 | 前端设计 |
-| MoneyPrinterTurbo | [harry0703/MoneyPrinterTurbo](projects/harry0703-MoneyPrinterTurbo.md) | 9.5 万 | 短视频 |
+| **Weizhena/Deep-Research-skills 🆕** 🔍 | [Weizhena/Deep-Research-skills](projects/Weizhena-Deep-Research-skills.md) | 1498 | 深度调研 |
+| **199-biotech/claude-deep-research-skill 🆕** 🔍 | [199-biotechnologies/claude-deep-research-skill](projects/199-biotechnologies-claude-deep-research-skill.md) | 814 | 深度调研（企业级） |
 
 ### T2 - 垂直领域明星
 
@@ -88,6 +97,8 @@ cat reports/20260701_analysis.md
 | Mastra | [mastra-ai/mastra](projects/mastra-ai-mastra.md) | 2.6 万 | TS Agent |
 | Cybersecurity Skills | [mukul975/Anthropic-Cybersecurity-Skills](projects/mukul975-Anthropic-Cybersecurity-Skills.md) | 2.4 万 | 安全审计 |
 | codebase-memory-mcp | [DeusData/codebase-memory-mcp](projects/DeusData-codebase-memory-mcp.md) | 2.4 万 | 代码搜索 |
+| **hoolulu/deep-research 🆕** 🔍 | [hoolulu/deep-research](projects/hoolulu-deep-research.md) | 432 | 深度调研（中文） |
+| **lingzhi227/agent-research-skills 🆕** 🔍 | [lingzhi227/agent-research-skills](projects/lingzhi227-agent-research-skills.md) | 182 | 学术全流程 |
 | InterviewStreet/hiring-agent 🆕 | [InterviewStreet/hiring-agent](projects/InterviewStreet-hiring-agent.md) | 4.4k | HR 招聘 |
 
 ### T3 - 基础设施 / 优化层
@@ -96,11 +107,14 @@ cat reports/20260701_analysis.md
 |------|------|------|------|
 | LLMLingua | [microsoft/LLMLingua](projects/microsoft-LLMLingua.md) | 6.4k | 成本压缩 |
 
-## 🎬 已收录视频
+> 🔍 = v0.2.2 起新增（手动调研类，非视频提取）
 
-| 期数 | 日期 | 标题 | 报告 |
-|------|------|------|------|
-| 28 | 2026-07-01 | 每日 github AI / Agent / Skills 热门项目速览 | [20260701_analysis.md](reports/20260701_analysis.md) |
+## 🎬 已收录视频 & 调研来源
+
+| 期数 | 日期 | 标题 | 来源类型 | 报告 |
+|------|------|------|---------|------|
+| 28 | 2026-07-01 | 每日 github AI / Agent / Skills 热门项目速览 | B 站视频 | [20260701_analysis.md](reports/20260701_analysis.md) |
+| -- | 2026-07-05 | Deep-Research 类 Skill 调研 | Hermes Agent 手动 | 本次 v0.2.2 收录 |
 
 **视频源**：
 - UP 主：[前端布洛芬](https://space.bilibili.com/79332967)
