@@ -58,7 +58,9 @@ Agent (codebase-memory-mcp):
 | 工具 | 检索方式 | 适合 |
 |------|----------|------|
 | **codebase-memory-mcp** | 语义+图谱 | 大仓，跨项目 |
-| Sourcegraph | 语义 | 企业级 |
+| **GitNexus** | 零服务器图谱 | 快速试用 |
+| **deepwiki-open** | wiki + RAG | 文档自动化 |
+| **sourcebot** | 自托管搜索 | Sourcegraph 替代 |
 | Aider | 单文件 | 小项目 |
 | ripgrep | 字符串 | 简单查找 |
 

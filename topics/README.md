@@ -7,11 +7,11 @@
 | 场景 | 一句话描述 | 推荐项目数 |
 |------|------------|------------|
 | [📄 RAG / 文档问答](./rag-document-qa.md) | 文档预处理 + 切片 + 检索 | 2 |
-| [🏢 业务知识 RAG / 企业知识问答](./business-rag.md) | 两阶段检索 + 多租户隔离 | 3 |
+| [🏢 业务知识 RAG / 企业知识问答](./business-rag.md) | 两阶段检索 + 多租户隔离 | 1 |
 | [🎬 短视频自动化生产](./short-video-automation.md) | 文案→配音→剪辑一条龙 | 3 |
 | [🤖 Agent Coding / Claude Code](./agent-coding.md) | 协议 + 多账号 + Skills 生态 | 7 |
 | [🧠 代码知识图谱 / 代码理解](./code-knowledge-graph.md) | 14 MCP 工具 + 两条铁律 | 4 |
-| [📚 团队 Skill 仓库 / 能力沉淀](./team-skill-hub.md) | 两层架构 + RAG 联动 | 3 |
+| [📚 团队 Skill 仓库 / 能力沉淀](./team-skill-hub.md) | 两层架构 + RAG 联动 | 1 |
 | [🔒 AI 安全审计 / 合规](./ai-security-audit.md) | 垂直 Skills + 合规框架 | 1 |
 | [🌐 跨平台信息获取 (MCP)](./cross-platform-mcp.md) | Agent 跨平台读取 | 4 |
 | [🧠 长期记忆 / 知识沉淀](./long-term-memory.md) | Agent 跨会话记忆 | 1 |
@@ -20,31 +20,34 @@
 | [☁️ GCP / 企业级 Agent 部署](./gcp-enterprise.md) | Google 生态 | 2 |
 | [🎨 前端设计 / Vibe Coding](./frontend-design.md) | 给 AI 加设计品味，对抗 AI Slop | 1 |
 | [👔 HR 招聘 / 简历评估](./hr-recruitment.md) | 简历初筛 + JD 匹配 | 1 |
+| [📚 深度调研报告生成](./deep-research-report.md) | 结构化报告 + 引用追溯 + 反方观点 | 4 |
 
 ## 横向对比表
 
 | 场景 | 核心项目 | 替代方案 | 成熟度 |
 |------|----------|----------|--------|
 | 文档→Markdown | microsoft/markitdown | pandoc, unstructured | ⭐⭐⭐ |
-| 业务知识 RAG | eosphoros-ai/DB-GPT | LangChain, LlamaIndex | ⭐⭐⭐ |
 | AI 短视频 | harry0703/MoneyPrinterTurbo | OpenMontage (视频工作室级) | ⭐⭐ |
 | Agent Skills 协议 | anthropics/skills | mattpocock/skills (TS派) | ⭐⭐⭐ |
 | Claude Code 多账号 | farion1231/cc-switch | 自建配置切换 | ⭐⭐⭐ |
 | 跨平台读取 MCP | Panniantong/Agent-Reach | 官方各平台 API | ⭐⭐ |
-| 代码知识图谱 | DeusData/codebase-memory-mcp | GitNexus, grep | ⭐⭐⭐ |
-| 团队 Skill 仓库 | iflytek/skillhub | obra/superpowers | ⭐⭐⭐ |
+| 代码 MCP | DeusData/codebase-memory-mcp | Sourcegraph, grep | ⭐⭐⭐ |
 | 长期记忆 | supermemoryai/supermemory | mem0, vector DB 自建 | ⭐⭐ |
 | 安全审计 Skills | mukul975/Anthropic-Cybersecurity-Skills | 自建规则库 | ⭐⭐ |
+| 深度调研报告（结构化两阶段） | Weizhena/Deep-Research-skills | 199-biotech（更严）, hoolulu（中文更优） | ⭐⭐⭐ |
+| 深度调研报告（企业级 8 阶段） | 199-biotech/claude-deep-research-skill | Weizhena（更轻量）, hoolulu（中文更优） | ⭐⭐⭐ |
+| 深度调研报告（中文券商级） | hoolulu/deep-research | Weizhena, 199-biotech | ⭐⭐⭐ |
+| 学术论文全流程 | lingzhi227/agent-research-skills | 自拼 skill 集 | ⭐⭐ |
+| 业务知识 RAG | eosphoros-ai/DB-GPT | LangChain, LlamaIndex | ⭐⭐⭐ |
+| 代码知识图谱（生产） | DeusData/codebase-memory-mcp | GitNexus, grep | ⭐⭐⭐ |
+| 代码知识图谱（轻量） | abhigyanpatwari/GitNexus | codebase-memory-mcp | ⭐⭐ |
+| 团队 Skill 仓库（企业自托管） | iflytek/skillhub | obra/superpowers | ⭐⭐⭐ |
 
 ## 使用方法
 
 ### 1. 我有明确业务需求
 
-直接点对应场景，例如：
-- "我想做业务知识问答" → [business-rag.md](./business-rag.md)
-- "我想让 AI 改代码前看到爆炸半径" → [code-knowledge-graph.md](./code-knowledge-graph.md)
-- "我想沉淀团队 Skill 仓库" → [team-skill-hub.md](./team-skill-hub.md)
-- "我想做 RAG 文档问答" → [rag-document-qa.md](./rag-document-qa.md)
+直接点对应场景，例如"我想做 RAG 文档问答" → [rag-document-qa.md](./rag-document-qa.md)
 
 ### 2. 我想了解某个项目的所有应用场景
 
@@ -63,27 +66,8 @@
 ## 标签云（按出现频次）
 
 ```
-Agent Skills (5) · MCP (6) · Claude Code (3) · 文档处理 (1) · 
-视频生产 (2) · 长期记忆 (1) · 安全审计 (1) · 代码搜索 (2) ·
+Agent Skills 协议 (3) · MCP (4) · Claude Code (2) · 文档处理 (1) · 
+视频生产 (2) · 长期记忆 (1) · 安全审计 (1) · 代码搜索 (1) ·
 跨平台 (1) · 成本优化 (1) · TypeScript (2) · Google 生态 (1) ·
-知识图谱 (4) · 业务 RAG (2) · 多租户 (1) · Skill 仓库 (2) ·
-CrossEncoder (1) · Tree-sitter (1) · 158 语言 (1)
+深度调研 (4) · 中文场景 (1) · 多语种 (1) · 学术 (1)
 ```
-
-## 🆕 v0.2.2 增量
-
-**新增 3 个场景索引**：
-- 🏢 **业务知识 RAG** — 两阶段检索 + 多租户隔离
-- 🧠 **代码知识图谱** — 14 MCP 工具 + 两条铁律
-- 📚 **团队 Skill 仓库** — 两层架构 + RAG 联动
-
-**新增 9 个项目**：
-- [DeusData/codebase-memory-mcp](../projects/DeusData-codebase-memory-mcp.md)（27k ⭐，stage3 主推）
-- [abhigyanpatwari/GitNexus](../projects/abhigyanpatwari-GitNexus.md)（44k ⭐，零服务器图谱）
-- [AsyncFuncAI/deepwiki-open](../projects/AsyncFuncAI-deepwiki-open.md)（17k ⭐）
-- [sourcebot-dev/sourcebot](../projects/sourcebot-dev-sourcebot.md)（3.5k ⭐）
-- [eosphoros-ai/DB-GPT](../projects/eosphoros-ai-DB-GPT.md)（19k ⭐，stage3 主推）
-- [iflytek/skillhub](../projects/iflytek-skillhub.md)（3.7k ⭐，stage3 主推）
-- [Fission-AI/OpenSpec](../projects/Fission-AI-OpenSpec.md)（59k ⭐，E06 预告）
-- [obra/superpowers](../projects/obra-superpowers.md)（248k ⭐，E06 预告）
-- [Johnson-Jia/ai-landing-tutorial](../projects/Johnson-Jia-ai-landing-tutorial.md)（教程仓库）
