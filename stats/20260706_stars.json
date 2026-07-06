@@ -1,0 +1,173 @@
+{
+  "snapshot_date": "2026-07-06",
+  "source_video": "BV1mGT96JERY",
+  "uploader": "GitHub星探",
+  "video_title": "给 AI 装上眼睛和记忆：基础设施四件套实操",
+  "tutorial_repo": "Johnson-Jia/ai-landing-tutorial",
+  "tutorial_stage": "stage3.html",
+  "video_duration_seconds": 339,
+  "video_view_count": 145,
+  "project_count": 9,
+  "projects": [
+    {
+      "id": 1,
+      "name": "Johnson-Jia/ai-landing-tutorial（教程仓库）",
+      "repo": "Johnson-Jia/ai-landing-tutorial",
+      "star_count": 1,
+      "star_raw": "1（新仓库）",
+      "growth": "",
+      "tier": "T3 教程",
+      "tags": [
+        "AI转型",
+        "方法论",
+        "企业级",
+        "教程",
+        "7阶段"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "DeusData/codebase-memory-mcp（视频 stage3 主推）",
+      "repo": "DeusData/codebase-memory-mcp",
+      "star_count": 27197,
+      "star_raw": "2.72 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "代码知识图谱",
+        "MCP",
+        "Tree-sitter",
+        "158语言",
+        "14个MCP工具"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "abhigyanpatwari/GitNexus",
+      "repo": "abhigyanpatwari/GitNexus",
+      "star_count": 43682,
+      "star_raw": "4.37 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "代码知识图谱",
+        "零服务器",
+        "多仓库",
+        "MCP"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "AsyncFuncAI/deepwiki-open",
+      "repo": "AsyncFuncAI/deepwiki-open",
+      "star_count": 17179,
+      "star_raw": "1.72 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "代码wiki",
+        "RAG",
+        "GitHub/Gitlab",
+        "文档生成"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "sourcebot-dev/sourcebot",
+      "repo": "sourcebot-dev/sourcebot",
+      "star_count": 3564,
+      "star_raw": "3,564",
+      "growth": "",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "自托管代码搜索",
+        "MCP",
+        "Sourcegraph替代"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "eosphoros-ai/DB-GPT（视频 stage3 主推）",
+      "repo": "eosphoros-ai/DB-GPT",
+      "star_count": 19382,
+      "star_raw": "1.94 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "RAG",
+        "多租户",
+        "向量库",
+        "业务知识",
+        "两阶段检索"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "iflytek/skillhub（视频 stage3 主推）",
+      "repo": "iflytek/skillhub",
+      "star_count": 3774,
+      "star_raw": "3,774",
+      "growth": "",
+      "tier": "T2 垂直领域明星",
+      "tags": [
+        "Skill仓库",
+        "团队协作",
+        "自托管",
+        "Apache2.0",
+        "科大讯飞"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Fission-AI/OpenSpec（E06 预告）",
+      "repo": "Fission-AI/OpenSpec",
+      "star_count": 58965,
+      "star_raw": "5.90 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "SDD",
+        "Spec-Driven",
+        "AI Coding",
+        "阶段4",
+        "闭环试点"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "obra/superpowers（E06 预告）",
+      "repo": "obra/superpowers",
+      "star_count": 247558,
+      "star_raw": "24.76 万",
+      "growth": "",
+      "tier": "T1 千星+月增过万",
+      "tags": [
+        "Agent Skills",
+        "Skill框架",
+        "SDLC",
+        "阶段4",
+        "闭环试点"
+      ]
+    }
+  ],
+  "video_themes": [
+    "代码知识图谱（stage3 主推：codebase-memory-mcp）",
+    "业务知识 RAG（stage3 主推：DB-GPT）",
+    "Skill 仓库（stage3 主推：iflytek/skillhub）",
+    "MCP 网关（stage3 主推：Spring AI Alibaba）"
+  ],
+  "key_principles": [
+    "能检索/查证的就不盲读（代码图谱省 token / Skill 入 RAG / CLI 优于 MCP）",
+    "CLI 优先于 MCP —— 能用 gh/aws/kubectl 的别用 MCP，工具定义常驻烧 token",
+    "业务数据入 RAG，不入 Skill —— 让 Skill 保持极轻",
+    "图谱和 RAG 不是二选一，而是分层共存",
+    "改任何符号前必跑 impact；提交前必跑 detect_changes"
+  ],
+  "skip_criteria": [
+    "单仓库几万行内",
+    "没有多仓库微服务",
+    "业务知识不算复杂"
+  ],
+  "version": "v0.2.2",
+  "addendum_note": "BV1mGT96JERY（E05）基础设施四件套，9 个项目全部 GitHub 验证存在并获取实时 star 数。"
+}
