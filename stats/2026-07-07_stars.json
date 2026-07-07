@@ -1,0 +1,21 @@
+{
+  "date": "2026-07-07",
+  "snapshot": {
+    "topoteretes/cognee": 27258,
+    "mem0ai/mem0": 60238,
+    "letta-ai/letta": 23674,
+    "milvus-io/milvus": 45098,
+    "weaviate/weaviate": 16522
+  },
+  "video_claim": {
+    "cognee_stars_in_video": 18800,
+    "video_actual_stars": 27258,
+    "growth_pct": 45,
+    "note": "Video was likely recorded ~2026-03, real-time stars on 2026-07-07"
+  },
+  "competitor_analysis": {
+    "category_leader_by_stars": "mem0ai/mem0 (60238)",
+    "cognee_position": "#2 in AI memory layer, growth velocity 500x pip downloads",
+    "key_differentiator": "Open knowledge graph in free tier (mem0 locks it behind $249/mo)"
+  }
+}
