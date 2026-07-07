@@ -216,6 +216,17 @@ class Handler(SimpleHTTPRequestHandler):
                     self.wfile.write(f.read())
             else:
                 self.wfile.write(b'not found')
+        elif parsed.path.startswith('/ceremony_videos/'):
+            # 提供已生成的突破视频下载
+            self.send_response(200)
+            self.send_header('Content-Type', 'video/mp4')
+            self.send_header('Content-Disposition', 'attachment; filename="breakthrough.mp4"')
+            full = os.path.join(BASE_DIR, parsed.path[1:])
+            if os.path.exists(full):
+                with open(full, 'rb') as f:
+                    self.wfile.write(f.read())
+            else:
+                self.wfile.write(b'video not ready yet')
         elif parsed.path == '/api/me':
             device = self.headers.get('X-Device-Id', 'demo-device')
             users = execute_query('SELECT * FROM users WHERE device_id = ?', (device,), fetch=True)
@@ -338,8 +349,48 @@ class Handler(SimpleHTTPRequestHandler):
                           (new_name, device))
             return self._json({'ok': True, 'dao_name': new_name})
 
+        elif parsed.path == '/api/ceremony_video':
+            # 为某境界生成/获取已存在的突破视频
+            device = self.headers.get('X-Device-Id', 'demo-device')
+            realm = body.get('realm_code')
+            users = execute_query('SELECT * FROM users WHERE device_id = ?', (device,), fetch=True)
+            if not users:
+                return self._json({'error': 'no user'}, 400)
+
+            target = os.path.join(CEREMONY_VIDEO_DIR, f'{realm}_breakthrough.mp4')
+            if os.path.exists(target) and os.path.getsize(target) > 100_000:
+                return self._json({
+                    'status': 'ready',
+                    'video_url': f'/ceremony_videos/{realm}_breakthrough.mp4',
+                    'size_mb': round(os.path.getsize(target) / 1024 / 1024, 1),
+                })
+
+            # 后台启动生成 (现成脚本)
+            import subprocess
+            subprocess.Popen(
+                ['python3', os.path.join(BASE_DIR, 'ceremony_video.py'), realm],
+                cwd=BASE_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+            )
+            return self._json({'status': 'generating', 'realm': realm,
+                               'message': '视频生成中,约 3-5 分钟,请稍后刷新'})
+
+        elif parsed.path == '/api/ceremony_status':
+            # 检查视频是否已准备好
+            realm = body.get('realm_code') or ''
+            target = os.path.join(CEREMONY_VIDEO_DIR, f'{realm}_breakthrough.mp4')
+            exists = os.path.exists(target) and os.path.getsize(target) > 100_000
+            return self._json({
+                'ready': exists,
+                'video_url': f'/ceremony_videos/{realm}_breakthrough.mp4' if exists else None,
+                'size_mb': round(os.path.getsize(target)/1024/1024, 1) if exists else 0,
+            })
+
         else:
             self._json({'error': 'not found'}, 404)
+
+
+CEREMONY_VIDEO_DIR = os.path.join(BASE_DIR, 'ceremony_videos')
+os.makedirs(CEREMONY_VIDEO_DIR, exist_ok=True)
 
 
 def main():

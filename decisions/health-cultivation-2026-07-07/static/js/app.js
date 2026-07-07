@@ -256,16 +256,65 @@ document.getElementById('nameSubmit').onclick = async () => {
 };
 
 // --- Ceremony (突破仪式) ---
+let currentBreakthroughRealm = null;
 async function showCeremony(realm) {
+  currentBreakthroughRealm = realm.realm_code;
   document.getElementById('ceremonySeal').textContent = realm.realm_name.charAt(0);
   document.getElementById('ceremonyRealm').textContent = realm.realm_name;
   document.getElementById('ceremonyMsg').textContent = realm.description;
   document.getElementById('ceremonySkill').textContent = realm.unlocked_skill ? `已得 ${realm.unlocked_skill}` : '';
+  const statusEl = document.getElementById('ceremonyVideoStatus');
+  statusEl.style.display = 'none';
+  document.getElementById('ceremonyVideoBtn').textContent = '🎬 分享突破时刻(30 秒视频)';
   document.getElementById('ceremonyMask').style.display = 'flex';
   await loadScrolls();
 }
 document.getElementById('ceremonyContinue').onclick = () => {
   document.getElementById('ceremonyMask').style.display = 'none';
+};
+
+// 突破时刻视频按钮
+document.getElementById('ceremonyVideoBtn').onclick = async () => {
+  if (!currentBreakthroughRealm) return;
+  const btn = document.getElementById('ceremonyVideoBtn');
+  const statusEl = document.getElementById('ceremonyVideoStatus');
+  statusEl.style.display = 'block';
+  btn.disabled = true;
+  btn.textContent = '查询中...';
+  // 先查询状态
+  const r1 = await api('/api/ceremony_status', {
+    method: 'POST', body: JSON.stringify({ realm_code: currentBreakthroughRealm })
+  });
+  if (r1.ready) {
+    statusEl.innerHTML = `✅ 视频已生成 (${r1.size_mb} MB),<a href="${r1.video_url}" download style="color:#e5c878;text-decoration:underline;">点这里下载</a>`;
+    btn.textContent = '已就绪,再次下载';
+    btn.disabled = false;
+    return;
+  }
+  // 没就绪 → 触发生成
+  btn.textContent = '生成中...';
+  const r2 = await api('/api/ceremony_video', {
+    method: 'POST', body: JSON.stringify({ realm_code: currentBreakthroughRealm })
+  });
+  statusEl.textContent = r2.message || '视频生成中,约 3-5 分钟';
+  btn.textContent = '🔄 刷新状态';
+  btn.disabled = false;
+  // 自动轮询 (10 次,每 30 秒,共 5 分钟)
+  let pollCount = 0;
+  const pollTimer = setInterval(async () => {
+    pollCount++;
+    if (pollCount > 20) { clearInterval(pollTimer); btn.textContent = '已可重新查询'; return; }
+    const r = await api('/api/ceremony_status', {
+      method: 'POST', body: JSON.stringify({ realm_code: currentBreakthroughRealm })
+    });
+    if (r.ready) {
+      clearInterval(pollTimer);
+      statusEl.innerHTML = `✅ 视频已生成 (${r.size_mb} MB),<a href="${r.video_url}" download style="color:#e5c878;text-decoration:underline;">点这里下载</a>`;
+      btn.textContent = '再次下载';
+    } else {
+      btn.textContent = `🔄 刷新状态(${pollCount * 30}s)`;
+    }
+  }, 30000);
 };
 
 // --- Cultivation buttons ---
